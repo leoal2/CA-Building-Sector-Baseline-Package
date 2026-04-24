@@ -19,13 +19,25 @@ baseline-package/
 │  └─ step4_export_final.py
 ├─ inputs/
 │  ├─ public/
+│  │  ├─ DetailedConcordanceQuery.csv
+│  │  ├─ MRR_Emissions.xlsx
+│  │  ├─ inventory_with_new_naics.xlsx
+│  │  ├─ dnb_ca_weights.csv
+│  │  ├─ dnb_rous_weights.csv
+│  │  └─ remi_derived_inputs.xlsx
 │  └─ private/
+│     └─ .gitkeep
 ├─ outputs/
 │  ├─ step1/
+│  │  └─ .gitkeep
 │  ├─ step2/
+│  │  └─ .gitkeep
 │  ├─ step3/
+│  │  └─ .gitkeep
 │  └─ final/
+│     └─ .gitkeep
 └─ modelspecs/
+   └─ .gitkeep
 ```
 
 ## Main workflow vs optional preprocessing
