@@ -20,7 +20,15 @@ archive_internal_working/
 desktop.ini
 
 # Outputs
-outputs/
+outputs/*
+!outputs/step1/
+!outputs/step1/.gitkeep
+!outputs/step2/
+!outputs/step2/.gitkeep
+!outputs/step3/
+!outputs/step3/.gitkeep
+!outputs/final/
+!outputs/final/.gitkeep
 logs/
 
 # Private inputs
