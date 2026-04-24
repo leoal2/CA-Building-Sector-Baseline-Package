@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+.env/
+conda-meta/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+archive_internal_working/
+desktop.ini
+
+# Outputs
+outputs/
+logs/
+
+# Private inputs
+inputs/private/*
+!inputs/private/.gitkeep
+
+# Large binaries / temp
+*.log
+*.tmp
+*.bak
+
+# Excel temp files
+~$*.xlsx
