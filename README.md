@@ -11,15 +11,21 @@ baseline-package/
 ├─ requirements.txt
 ├─ .gitignore
 ├─ run_all.py
-├─ scripts/
-│  ├─ USEEIO.py
-│  ├─ step1_build_dnb_weights.py
-│  ├─ step2_build_detail_matrices.py
-│  ├─ step3_build_emissions_vectors.py
-│  └─ step4_export_final.py
-└─ inputs/
-   ├─ public/
-   └─ private/
+├─ inputs/
+│  ├─ public/
+│  └─ private/
+├─ modelspecs/
+├─ outputs/
+│  ├─ step1/
+│  ├─ step2/
+│  ├─ step3/
+│  └─ final/
+└─ scripts/
+   ├─ USEEIO.py
+   ├─ step1_build_dnb_weights.py
+   ├─ step2_build_detail_matrices.py
+   ├─ step3_build_emissions_vectors.py
+   └─ step4_export_final.py
 ```
 
 ## Main workflow vs optional preprocessing
